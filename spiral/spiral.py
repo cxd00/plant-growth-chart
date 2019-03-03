@@ -53,9 +53,9 @@ while True:
 		circ.move(velocity * math.cos(angle), velocity * math.sin(angle))
 	
 	newPos = findBestPos(points, radius)
-	circ = Circle(newPos, 1.5);
-	circ.setFill("green");
-	circ.setOutline("green");
+	circ = Circle(newPos, 1.5)
+	circ.setFill("green")
+	circ.setOutline("green")
 	circ.draw(win)
 	points.append(circ)
 
